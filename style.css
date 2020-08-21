@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  margin: 0;
+  /* background-color: black; */
+}
+
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  height: 13%;
+  box-sizing: border-box;
+  /* border: 2px solid lightgrey; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 85px;
+  min-height: 85px;
+}
+
+main {
+  height: 80%;
+  box-sizing: border-box;
+  /* border: 2px solid cyan; */
+  display: flex;
+  min-height: 452px;
+  min-width: 845px;
+  max-height: 470px;
+}
+
+aside {
+  flex-basis: 18%;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+  height: max-content;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+#logo {
+  box-sizing: border-box;
+  height: 30%;
+  flex-basis: 16em;
+  background-image: url(https://www.colehaan.com/on/demandware.static/-/Sites-ColeHaan_US-Library/en_US/dw8281b093/images/20190131/logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container {
+  height: 100vh;
+  box-sizing: border-box;
+  max-width: 845px;
+  margin: 0 auto;
+}
+
+.sub-container {
+  height: 50%;
+  box-sizing: border-box;
+  /* border: 2px solid cyan; */
+  display: flex;
+  justify-content: space-between;
+  max-height: 225px;
+}
+
+.sandal {
+  box-sizing: border-box;
+  flex-basis: 24.5%;
+  box-sizing: border-box;
+  /* border: 2px solid pink; */
+  min-width: 164px;
+  max-width: 166px;
+  max-height: 225px;
+}
+
+#products {
+  flex-basis: 82%;
+  box-sizing: border-box;
+  /* border: 2px solid wheat; */
+}
+
+#image1,
+#image2,
+#image3,
+#image4,
+#image5,
+#image6,
+#image7,
+#image8 {
+  max-height: 185px;
+  max-width: 164px;
+  min-height: 185px;
+  min-width: 164px;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* border: 2px solid greenyellow; */
+}
+
+#image1 {
+  height: 75%;
+  box-sizing: border-box;
+  background-image: url("images/avani_city_sandal_print.jpg");
+}
+#image2 {
+  height: 75%;
+  box-sizing: border-box;
+  /* border: 2px solid greenyellow; */
+  background-image: url("images/avani_city_sandal_beige.jpg");
+}
+#image3 {
+  height: 75%;
+  box-sizing: border-box;
+  background-image: url("images/avani_city_sandal_skin.jpg");
+}
+#image4 {
+  height: 75%;
+  box-sizing: border-box;
+  background-image: url("images/avani_city_sandal_suede.jpg");
+}
+#image5 {
+  height: 75%;
+  box-sizing: border-box;
+  background-image: url("images/avani_city_sandal_blue.jpg");
+}
+#image6 {
+  height: 75%;
+  box-sizing: border-box;
+  background-image: url("images/adele_sandal.jpg");
+}
+#image7 {
+  height: 75%;
+  box-sizing: border-box;
+  background-image: url("images/adele_sandal_alt.jpg");
+}
+#image8 {
+  height: 75%;
+  box-sizing: border-box;
+  background-image: url("images/anica_scallop_sandal.jpg");
+}
+
+#menu {
+  max-width: 30px;
+  /* display: none; */
+}
